@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Bubbles&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Pro', serif;
+}
+
+body {
+    background: url(../images/logo-mario-bros-minimalism-paper-mario-wallpaper-preview.jpg);
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff0000;
+}
+
+.form-control {
+margin-bottom: 15px;
+}
+
+.btn-primary {
+background-color: #ff0000;
+border-color: #ff0000;
+}
+
+.form-rodape {
+margin-top: 20px;
+color: #6c757d;
+}

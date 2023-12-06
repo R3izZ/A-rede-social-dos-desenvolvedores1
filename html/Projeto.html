@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Your Money</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Save Your Money</h1>
+        <form id="register-form" action="" method="post">
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="exemplodeemail@Saveyourmoney.com" data-min-length="2" data-email-validate data-required>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Nome</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Digite o seu nome" data-required data-min-length="3" data-max-length="16">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="lastname">Sobrenome</label>
+                    <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Digite o seu sobrenome" data-required data-min-length="3" data-only-letters>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" class="form-control" id="fone" placeholder="(xx) 9999-9999"data-required data-only-numbers>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="bday">Data de Nascimento</label>
+                    <input type="date" class="form-control" name="bday" id="bday" placeholder="Digite a data de nascimento" data-required>
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block" id="btn-submit">Criar nova conta</button>
+            </div>
+        </form>
+        <p class="form-rodape text-center"><a href="#">Retornar para a página de login</a></p>
+    </div>
+
+</body>
+</html>
